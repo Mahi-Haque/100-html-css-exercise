@@ -1,12 +1,35 @@
-<p>
-  Hello
-</p>
+<-- Format Selection like VS Code (Ctrl+K, Ctrl+F)
+vim.keymap.set("v", "<C-k><C-f>", function()
+  require("conform").format({ lsp_fallback = true, async = false, range = true })
+  -- Drop back to normal mode cleanly after formatting
+  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("<Esc>", true, false, true), "n", true)
+end, { desc = "Format selection" })
+-- Format Selection like VS Code (Ctrl+K, Ctrl+F)
+vim.keymap.set("v", "<C-k><C-f>", function()
+  require("conform").format({ lsp_fallback = true, async = false, range = true })
+  -- Drop back to normal mode cleanly after formatting
+  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("<Esc>", true, false, true), "n", true)
+end, { desc = "Format selection" })
+DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>First Website</title>
+  </head>
+  <body>
+    <p>
+      Hello
+    
+    </p>
 
-<button>
-  Hello
-</button>
+    <button>
 
-<a href="https://www.youtube.com" target="_blank">
-  Link to YouTube
+              Hello
+    </button>
+    <
+ a href="https://www.youtube.com" target="_blank">
+      Link to YouTube
+   
 </a>
+  </body>
+</html>
 
