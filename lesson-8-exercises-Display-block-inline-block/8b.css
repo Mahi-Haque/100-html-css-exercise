@@ -1,0 +1,10 @@
+.survey-description {
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.yes-btn,
+.no-btn {
+  vertical-align: middle;
+}
