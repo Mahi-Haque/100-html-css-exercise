@@ -1,0 +1,42 @@
+p {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.in-loca {
+  display: block;
+  width: 300px;
+  border: none;
+  background-color: whitesmoke;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+}
+.in-des {
+  display: block;
+  width: 300px;
+  border: none;
+  background-color: whitesmoke;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+
+.req-btn {
+  width: 100px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 5px;
+}
+
+.sche-btn {
+  width: 150px;
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 5px;
+}
