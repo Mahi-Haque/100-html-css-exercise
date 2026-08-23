@@ -1,0 +1,33 @@
+p {
+  font-size: 12px;
+  font-family: Arial;
+  color: lightslategray;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+input {
+  width: 300px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 5px 12px;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 15px;
+  border: none;
+  font-size: 12px;
+  width: 300px;
+  height: 30px;
+  background-color: dodgerblue;
+  color: whitesmoke;
+  border-radius: 15px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
