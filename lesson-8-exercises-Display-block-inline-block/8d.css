@@ -1,0 +1,41 @@
+.in-first {
+  width: 100px;
+  padding: 8px 15px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+}
+.in-last {
+  width: 100px;
+  padding: 8px 15px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+}
+
+.in-email {
+  display: block;
+  margin-top: 5px;
+  width: 265px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: darkgray;
+  border-style: solid;
+  margin-bottom: 5px;
+}
+
+button {
+  width: 296px;
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 8px 15px;
+}
