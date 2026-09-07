@@ -1,0 +1,8 @@
+.red-square {
+  width: 300px;
+  height: 250px;
+  background-color: red;
+  border: 1px black solid;
+  margin: 0 auto;
+  margin-top: 30%;
+}
